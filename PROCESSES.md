@@ -73,6 +73,12 @@ Links:
   - Publish new beta version in [npm](https://www.npmjs.com/).
   - Install new beta version in [seat-map-view-example](https://github.com/ft-worker/seat-map-view-example) for testing.
   - Make sure auto-deployment was successful in [Heroku Dashboard](https://dashboard.heroku.com/apps/seat-map-view).  
+  - Build `seat-map-view` package:
+    - `npm run build`
+    - `cd example && npm run build`
+  - Send these files to Back-End team members:
+    - `/seat-map-view/example/build/static/js/main.js`
+    - `/seat-map-view/example/build/static/css/main.css`  
 &nbsp;  
 
 # **TF Checkout React**
