@@ -1,3 +1,7 @@
+```
+NOTE: ClickUp tasks have TTF prefix.
+```
+
 # Branch
 
 ## The Ticket Fairy
