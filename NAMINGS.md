@@ -4,15 +4,15 @@
 
 ### Branch will be merged into ***master***
 
-- hotfix/{task_prefix}-{task_number}-task-title
-- hotfeature/{task_prefix}-{task_number}-task-title
-- improvement/{task_prefix}-{task_number}-task-title
+- hotfix/`{task_prefix}`-`{task_number}`-task-title
+- hotfeature/`{task_prefix}`-`{task_number}`-task-title
+- improvement/`{task_prefix}`-`{task_number}`-task-title
 
 ### Branch will be merged into other branch than ***master***
 
-- fix/{task_prefix}-{task_number}-task-title
-- feature/{task_prefix}-{task_number}-task-title
-- improvement/{task_prefix}-{task_number}-task-title
+- fix/`{task_prefix}`-`{task_number}`-task-title
+- feature/`{task_prefix}`-`{task_number}`-task-title
+- improvement/`{task_prefix}`-`{task_number}`-task-title
 
 &nbsp;
 &nbsp;
@@ -21,15 +21,15 @@
 
 ### Branch will be merged into ***prod or staging***
 
-- hotfix/{task_prefix}-{task_number}-task-title
-- hotfeature/{task_prefix}-{task_number}-task-title
-- improvement/{task_prefix}-{task_number}-task-title
+- hotfix/`{task_prefix}`-`{task_number}`-task-title
+- hotfeature/`{task_prefix}`-`{task_number}`-task-title
+- improvement/`{task_prefix}`-`{task_number}`-task-title
 
 ### Branch will be merged into other branch than ***prod and staging***
 
-- fix/{task_prefix}-{task_number}-task-title
-- feature/{task_prefix}-{task_number}-task-title
-- improvement/{task_prefix}-{task_number}-task-title
+- fix/`{task_prefix}`-`{task_number}`-task-title
+- feature/`{task_prefix}`-`{task_number}`-task-title
+- improvement/`{task_prefix}`-`{task_number}`-task-title
 
 &nbsp;
 &nbsp;
@@ -38,15 +38,15 @@
 
 ### Branch will be merged into ***master or staging***
 
-- hotfix/{task_prefix}-{task_number}-task-title
-- hotfeature/{task_prefix}-{task_number}-task-title
-- improvement/{task_prefix}-{task_number}-task-title
+- hotfix/`{task_prefix}`-`{task_number}`-task-title
+- hotfeature/`{task_prefix}`-`{task_number}`-task-title
+- improvement/`{task_prefix}`-`{task_number}`-task-title
 
 ### Branch will be merged into other branch than ***master and staging***
 
-- fix/{task_prefix}-{task_number}-task-title
-- feature/{task_prefix}-{task_number}-task-title
-- improvement/{task_prefix}-{task_number}-task-title
+- fix/`{task_prefix}`-`{task_number}`-task-title
+- feature/`{task_prefix}`-`{task_number}`-task-title
+- improvement/`{task_prefix}`-`{task_number}`-task-title
 
 &nbsp;
 &nbsp;
@@ -55,15 +55,15 @@
 
 ### Branch will be merged into ***main***
 
-- hotfix/{task_prefix}-{task_number}-task-title
-- hotfeature/{task_prefix}-{task_number}-task-title
-- improvement/{task_prefix}-{task_number}-task-title
+- hotfix/`{task_prefix}`-`{task_number}`-task-title
+- hotfeature/`{task_prefix}`-`{task_number}`-task-title
+- improvement/`{task_prefix}`-`{task_number}`-task-title
 
 ### Branch will be merged into other branch than ***main***
 
-- fix/{task_prefix}-{task_number}-task-title
-- feature/{task_prefix}-{task_number}-task-title
-- improvement/{task_prefix}-{task_number}-task-title
+- fix/`{task_prefix}`-`{task_number}`-task-title
+- feature/`{task_prefix}`-`{task_number}`-task-title
+- improvement/`{task_prefix}`-`{task_number}`-task-title
 
 
 &nbsp;
@@ -76,7 +76,7 @@
 // keyword - fix, hotfix, feature, hotfeature, improvement
 // task prefix - TTF
 
-{keyword}/{task_prefix}{task_number} - Task title taken from Jira/Trello card
+{keyword}/{task_prefix}-{task_number} - Task title taken from Jira/Trello card
 ```
 
 ## Description
@@ -92,7 +92,7 @@ PR description should contain:
 
 # Commit
 ```
-#{task_prefix}{task_number} - task title or descriptive message
+#{task_prefix}-{task_number} - task title or descriptive message
 ```
 
 
